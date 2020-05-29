@@ -906,3 +906,49 @@ section.step-one{
 .form-content-step{
 	width: 450px;
 }
+
+section.step-two{
+
+}
+
+.black-aside{
+	background: var(--dark) ;
+	height: 100vh;
+	width: fit-content;
+	position: fixed;
+}
+
+.black-aside img{
+    transform: rotate(-90deg);
+    position: relative;
+    top: 50px;
+    width: 65px;
+}
+
+.flecha-black{
+	color:var(--dark);
+	font-size: 28px;
+}
+
+.form-select{
+	min-width: 15rem;
+}
+
+.mas-info{
+	color: var(--secondary);
+	font-size: 16px;
+}
+
+.profesional img{
+	width: 127px;
+	height: 142px;
+    border-radius: 5px;
+}
+
+.profesional-title{
+	font-weight: 900;
+}
+
+.profesional-info{
+	line-height: 1.1rem;
+}
