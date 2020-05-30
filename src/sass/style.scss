@@ -216,6 +216,9 @@ $input-focus-box-shadow:                none;
  }
 
 
+
+
+
 .form-group{
   position: relative;
   padding: 1rem 0;
@@ -260,6 +263,12 @@ $input-focus-box-shadow:                none;
     &:focus{
       height: auto;
     }
+  }
+
+  input:-internal-autofill-selected {
+    -webkit-appearance: menulist-button;
+    background-color:transparent!important;
+    
   }
 
 
