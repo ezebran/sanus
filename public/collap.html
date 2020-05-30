@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="icon" href="./img/icon.png" />
+        <title>Sanus - web de salud</title>
+        <!-- fonts -->
+        <link rel="stylesheet" href="./fonts/publicsans.css">
+        <link rel="stylesheet" href="./fonts/icons.css">
+    </head>
+    
+    <body> <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
+        role="button" aria-expanded="false" aria-controls="collapseExample">
+
+    Link with href
+
+  </a>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                anderson cred nesciunt sapiente ea proident.</div>
+        </div>
+        <script src="js/all.js"></script>
+        <script>
+            var wow = new WOW( {
+                mobile:    false
+              });
+            wow.init();
+        </script>
+        <script type="text/javascript">
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+                } else {
+                document.getElementById("navbar").style.top = "0px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+            
+            
+                /* ============================================== */
+                /* EFFECT MENU */
+                /* ============================================== */
+            
+                $(function(){
+                    jQuery(window).scroll(function () {
+                        if (jQuery(window).scrollTop() > 30) {
+                            jQuery(".navigation-fixed-top").addClass("effect");
+                            jQuery(".navigation-fixed").addClass("effect");
+                        } else {
+                            jQuery(".navigation-fixed-top").removeClass("effect");
+                            jQuery(".navigation-fixed").removeClass("effect");
+                        }
+                        if (jQuery(window).scrollTop() > 180) {
+                            jQuery(".section-main").addClass("effect");                
+                        } else {
+                            jQuery(".section-main").removeClass("effect");                
+                        }
+            
+                        if (jQuery(window).scrollTop() > 270) {
+                            jQuery(".section-main").addClass("op-0");                
+                        } else {
+                            jQuery(".section-main").removeClass("op-0");                
+                        }
+                    });
+                });
+            
+                $("#toggle").click(function() {
+                    $(this).toggleClass("on");
+                     $("#menu").toggleClass("open");
+                     
+            
+                     if($(this).attr('class') == 'on'){
+                      	$("body").addClass('menu-open');
+                      }else{ 
+                      	$("body").removeClass('menu-open');
+                      }
+                    
+                    
+                });
+            
+            
+            
+                $("#menu li a").click(function() {          
+                    $("#menu").removeClass('open');
+                    $("#toggle").toggleClass("on");
+                    $("body").removeClass('menu-open');
+                });
+        </script>
+    </body>
+
+</html>

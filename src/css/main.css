@@ -939,7 +939,7 @@ section.step-two{
 	font-size: 16px;
 }
 
-.profesional img{
+.profile-photo{
 	width: 127px;
 	height: 142px;
     border-radius: 5px;
@@ -951,4 +951,24 @@ section.step-two{
 
 .profesional-info{
 	line-height: 1.1rem;
+}
+
+.calendar-step-two{
+	background: var(--white);
+	border-left: 1px solid rgb(183, 183, 183);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.icon-cerrar{
+	font-size: 1.3rem;
+}
+
+.calendar-perfil{
+	color:gray;
+}
+
+.calendar-sub{
+	background: #feeeb0;
 }
