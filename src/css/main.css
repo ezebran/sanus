@@ -986,3 +986,29 @@ section.step-two{
     vertical-align: top;
     font-size: 0.8rem;
 }
+
+.btn-wp{
+	padding: 0rem 2rem;
+}
+
+.btn-wp .icon-whatsapp-1{
+	position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.calendar-menu-slider{
+	border-bottom: 1px solid rgb(210,210,210);
+}
+
+.calendar-menu-slider a{
+	color:var(--black);
+	border-bottom: 3px solid rgba(210,210,210,0);
+    padding-bottom: 1rem;
+    position: relative;
+    top: 26px;
+}
+
+.calendar-menu-slider a.active{
+	border-bottom: 3px solid #f2bc5c;
+}
