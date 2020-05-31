@@ -959,6 +959,7 @@ section.step-two{
     position: fixed;
     top: 0px;
     right: 0px;
+    min-height: 100vh;
 }
 
 .icon-cerrar{
@@ -971,4 +972,17 @@ section.step-two{
 
 .calendar-sub{
 	background: #feeeb0;
+	border-radius: 6px;
+}
+
+.calendar-mes a{
+	color:var(--black);
+}
+
+.calendar-test table th, .calendar-test table td {
+	border:none;
+	padding: 0.3rem 0.3rem;
+    text-align: center;
+    vertical-align: top;
+    font-size: 0.8rem;
 }
