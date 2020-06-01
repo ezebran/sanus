@@ -928,6 +928,13 @@ section.step-two{
 .flecha-black{
 	color:var(--dark);
 	font-size: 28px;
+	display: inline-block;
+    transform: rotate(180deg);
+}
+
+.flecha-back{
+	display: inline-block;
+    transform: rotate(180deg);
 }
 
 .form-select{
@@ -1011,4 +1018,8 @@ section.step-two{
 
 .calendar-menu-slider a.active{
 	border-bottom: 3px solid #f2bc5c;
+}
+
+.calendar-step-two .icon-cerrar{
+	color:black;
 }
