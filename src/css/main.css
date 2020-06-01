@@ -872,27 +872,29 @@ section.step-one{
 }
 
 .step-logo{
-    width: 156px;
-    height: 41px;
+   padding: 22px 44px;
+   max-width: 100%;
 }
 
 .aside-step-one{
-	border-right: 1px solid rgb(235,235,235);
-	height: 100%;
+	border-right: 1px solid rgba(235,235,235,.2);
+	height: 100vh;
 }
 
 .woman-step-one{
-	width: 285px;
+	width: calc(100% + 94px);
     position: relative;
     left: 29px;
+    
 }
 
 .aside-txt{
-	margin-top: 7.5em;
+    margin-top: 7.5em;
+    padding: 0 32px;
 }
 
 .main-step-one{
-	padding: 3rem 5em;
+	
 
 }
 
