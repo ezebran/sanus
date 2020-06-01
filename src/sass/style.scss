@@ -1,6 +1,6 @@
 //Colors
 $white : #fff;
-$primary: #1D8FC8;
+$primary: #2b8aba;
 $secondary: rgb(240, 188, 92);
 $warning: #feeeb0;
 $danger: #ba5624;
@@ -173,7 +173,9 @@ $label-margin-bottom:                   0;
 $input-font-size: ($h4-font-size * .8);
 
 
-$input-padding-x:                       0;
+$input-padding-x:      0;
+$input-padding-x-lg:   0;
+
 
 
 
@@ -214,6 +216,9 @@ $input-focus-box-shadow:                none;
  }
 
 
+
+
+
 .form-group{
   position: relative;
   padding: 1rem 0;
@@ -229,6 +234,15 @@ $input-focus-box-shadow:                none;
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    &.form-number{
+      font-size: $h4-font-size;
+      
+      
+      letter-spacing: .4rem;
+      &::placeholder{
+        letter-spacing: .1rem;
+      }
+    }
     &:focus{
       
       &::placeholder{
@@ -249,6 +263,12 @@ $input-focus-box-shadow:                none;
     &:focus{
       height: auto;
     }
+  }
+
+  input:-internal-autofill-selected {
+    -webkit-appearance: menulist-button;
+    background-color:transparent!important;
+    
   }
 
 

@@ -317,9 +317,11 @@ display: block;
 /**BUTTONS*/
 .btn{
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .2rem;   
 }
-
+.btn-block{
+   
+}
 
 
 
@@ -367,9 +369,8 @@ section{
     display: block;
     position: absolute;    
     border-radius: 0 0 150px 0;    
-    background: linear-gradient(-45deg,  #DB9A60, #1D8FC8, #201dc8,#ba5624, #2b8aba,  );
+    background: var(--primary);
     background-size: 200% 800%;
-	animation: gradient 5s ease infinite;
     opacity: .8;
     top:0;
     z-index: -1;
@@ -379,17 +380,7 @@ section{
     
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
 
 @media (min-width:960px){
 
@@ -435,7 +426,9 @@ section{
 
 
 
-.reserva-turnos{}
+.reserva-turnos{
+    max-width: 350px;
+}
 
 @media (max-width:768px){
     .reserva-turnos h4.title-sgt{   
@@ -477,6 +470,15 @@ section{
         left: calc(50% - 14vw);
     }
 }
+
+
+.copy-main{
+    position: absolute;
+    bottom: 32px;
+    right: 54px;
+}
+
+
 
 
 
