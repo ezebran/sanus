@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "landing";
-  src:url("landing.eot");
-  src:url("landing.eot?#iefix") format("embedded-opentype"),
-    url("landing.woff") format("woff"),
-    url("landing.ttf") format("truetype"),
-    url("landing.svg#landing") format("svg");
+  src:url("fonts/landing.eot");
+  src:url("fonts/landing.eot?#iefix") format("embedded-opentype"),
+    url("fonts/landing.woff") format("woff"),
+    url("fonts/landing.ttf") format("truetype"),
+    url("fonts/landing.svg#landing") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -55,9 +55,6 @@
 }
 .icon-identity-card:before {
   content: "\66";
-}
-.icon-proximo:before {
-  content: "\67";
 }
 .icon-reloj:before {
   content: "\68";
@@ -121,4 +118,67 @@
 }
 .icon-angle-up:before {
   content: "\42";
+}
+.icon-proximo:before {
+  content: "\67";
+}
+.icon-play-button:before {
+  content: "\43";
+}
+.icon-search:before {
+  content: "\44";
+}
+.icon-burguer:before {
+  content: "\45";
+}
+.icon-round-add-button:before {
+  content: "\46";
+}
+.icon-down-circle:before {
+  content: "\47";
+}
+.icon-flecha-left:before {
+  content: "\48";
+}
+.icon-down-circle-1:before {
+  content: "\49";
+}
+.icon-location:before {
+  content: "\4a";
+}
+.icon-caret-down:before {
+  content: "\4b";
+}
+.icon-caret-left:before {
+  content: "\4c";
+}
+.icon-caret-right:before {
+  content: "\4d";
+}
+.icon-caret-up:before {
+  content: "\4e";
+}
+.icon-reply:before {
+  content: "\4f";
+}
+.icon-refresh:before {
+  content: "\50";
+}
+.icon-slack:before {
+  content: "\51";
+}
+.icon-user:before {
+  content: "\52";
+}
+.icon-users:before {
+  content: "\53";
+}
+.icon-share:before {
+  content: "\54";
+}
+.icon-linkedin-circled:before {
+  content: "\55";
+}
+.icon-sharethis:before {
+  content: "\56";
 }
