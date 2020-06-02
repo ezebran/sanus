@@ -948,7 +948,7 @@ section.step-two{
 }
 
 .black-aside{
-	background: var(--dark) ;
+	background: var(--primary) ;
 	height: 100vh;
 	width: fit-content;
 	position: fixed;
@@ -995,20 +995,39 @@ section.step-two{
 }
 
 .profesional-title{
-	font-weight: 900;
+	font-weight: 800;
 }
 
 .profesional-info{
-	line-height: 1.1rem;
+    line-height: 1.1rem;
+    margin-bottom: 0;
+}
+
+.profesionales a{
+    color: var(--dark);
 }
 
 .calendar-step-two{
 	background: var(--white);
-	border-left: 1px solid rgb(183, 183, 183);
+	border-left: 1px solid rgba(183, 183, 183, .5);
     position: fixed;
     top: 0px;
     right: 0px;
     min-height: 100vh;
+    padding: 44px;
+    width: 500px;
+    -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.calendar-step-two.collapsing{
+    right: -500px;
+}
+
+.calendar-step-two.collapse{
+    right: 0px;
 }
 
 .icon-cerrar{
@@ -1065,6 +1084,7 @@ section.step-two{
 .calendar-step-two .icon-cerrar{
 	color:black;
 }
+
 
 /*.step-two-saludo{
 	padding: 1rem 2rem !important;
