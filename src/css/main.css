@@ -910,12 +910,25 @@ section.step-one{
 section.step-two{
 
 }
+@media (max-width: 768px){
+	section.step-two{
+		width: 100%;
+		margin-right: auto;
+	    margin-left: auto;
+	}
+}
 
 .black-aside{
 	background: var(--dark) ;
 	height: 100vh;
 	width: fit-content;
 	position: fixed;
+}
+
+@media (max-width: 768px){
+	.black-aside{
+		display: none;
+	}
 }
 
 .black-aside img{
@@ -1023,3 +1036,7 @@ section.step-two{
 .calendar-step-two .icon-cerrar{
 	color:black;
 }
+
+/*.step-two-saludo{
+	padding: 1rem 2rem !important;
+}*/
