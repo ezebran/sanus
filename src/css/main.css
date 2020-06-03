@@ -988,6 +988,12 @@ section.step-two{
 	font-size: 16px;
 }
 
+@media (max-width: 767px) {
+    .mas-info{
+        align-self: flex-end !important;
+    }
+}
+
 .profile-photo{
 	width: 127px;
 	height: 142px;
@@ -1066,6 +1072,23 @@ section.step-two{
 	color:black;
 }
 
-/*.step-two-saludo{
-	padding: 1rem 2rem !important;
-}*/
+@media (max-width: 767px) {
+    .step-two-filtros{
+        flex-direction: column !important;
+        height: fit-content;
+    }
+    .step-two-filtros .form-group{
+        margin-bottom: 2rem !important;
+    }
+
+    .profesionales .profesional{
+        margin-bottom: 3rem;
+    }
+    .resultados{
+        margin: 2rem 0 3rem !important;
+    }
+
+    .m-bot-xs-0{
+        margin-bottom: 0 !important;
+    }
+}
